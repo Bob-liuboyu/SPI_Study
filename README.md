@@ -356,5 +356,8 @@ public S next() {
 通过Java的SPI机制也有一点缺点就是在运行时通过反射加载类实例，这个对性能会有点影响。但是瑕不掩瑜，SPI机制可以实现不同模块之间方便的面向接口编程，拒绝了硬编码的方式，解耦效果很好。用起来也简单，只需要在目录META-INF/services中配置实现类就行。
 文中的栗子已上传github，有需要的可以参考：[github demo链接](https://github.com/Bob-liuboyu/SPI_Study)
 
+参考博客
 
+*   [Android模块开发之SPI](https://www.jianshu.com/p/deeb39ccdc53)
+*   [Android功能库初始化管理利器](https://mp.weixin.qq.com/s/zwECv5jE1dBjQokpKtF2Sw)
 
